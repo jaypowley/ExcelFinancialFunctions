@@ -136,7 +136,7 @@ Target "RunTests" (fun _ ->
     !! testAssemblies
     |> NUnit (fun p ->
         { p with
-            Framework = "4.0"
+            Framework = "4.5"
             DisableShadowCopy = true
             TimeOut = TimeSpan.FromMinutes 20.
             OutputFile = "TestResults.xml" })

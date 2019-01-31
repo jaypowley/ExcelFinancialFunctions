@@ -66,7 +66,7 @@
     <When Condition="$(TargetFrameworkProfile) == 'Profile259'">
       <ItemGroup>
         <Reference Include="FSharp.Core">
-          <HintPath>..\..\packages\FSharp.Core\lib\portable-net45+netcore45+wpa81+wp8\FSharp.Core.dll</HintPath>
+          <HintPath>..\..\packages\FSharp.Core\Microsoft.Portable.FSharp.Core.10.1.0\lib\profiles\portable-net45+netcore45\FSharp.Core.dll</HintPath>
           <Private>True</Private>
           <Paket>True</Paket>
         </Reference>
